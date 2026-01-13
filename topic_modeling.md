@@ -34,4 +34,4 @@ Chat → Embedding → Clustering → Topic keywords
 Human-in-the-loop labeling for example "Intrusion test"
 
 ### Time-based validation
-Example:Delivery issues spike during holidays
+Example: Delivery issues spike during holidays
