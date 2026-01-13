@@ -25,3 +25,6 @@ Chat → Embedding → Clustering → Topic keywords
 - LDA assumes there are K hidden topics (you choose K) and it tries to answer “Which topics explain these word distributions best?”
 
 ## Validation
+### Quantitative validation
+- Topic coherence: Measures whether top words in a topic “belong together” using metrics like C_v (word co-occurrence, indirect semantic similarity, Normalized Pointwise Mutual Information, Smart aggregation) (It may undervalue rare but important topics).
+- Topic diversity
