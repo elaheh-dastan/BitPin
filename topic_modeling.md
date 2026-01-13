@@ -27,4 +27,11 @@ Chat → Embedding → Clustering → Topic keywords
 ## Validation
 ### Quantitative validation
 - Topic coherence: Measures whether top words in a topic “belong together” using metrics like C_v (word co-occurrence, indirect semantic similarity, Normalized Pointwise Mutual Information, Smart aggregation) (It may undervalue rare but important topics).
-- Topic diversity
+- Topic diversity: Checks whether topics are redundant. Top words are specific, not generic
+- Topic stability: Retrain the model multiple times, Do the same topics reappear?
+
+### Qualitative validation
+Human-in-the-loop labeling for example "Intrusion test"
+
+### Time-based validation
+Example:Delivery issues spike during holidays
